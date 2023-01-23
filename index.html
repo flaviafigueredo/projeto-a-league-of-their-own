@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="src/imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+    <title>A League of Their Own - A série</title>
+</head>
+
+<body>
+
+    <div class="fundo-video">
+        <video autoplay loop muted class="video">
+            <source src="src/video/a-league-of-their-own-video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a href="">
+            <img src="src/imagens/logo.png" alt="Logo A League of Their Own" class="logo">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a id="btn-detalhes">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="home" id="home">            
+            <div class="informacoes">
+                <img src="src/imagens/titulo.png" alt="imagem do título do filme" class="imagem-titulo">
+                <p class="descricao">Em 1943, Carson Shaw vai até Chicago para fazer um teste para a Liga de Beisebol Profissional All-American Girls. Lá, conhece uma mulher que também sonha em jogar profissionalmente e pessoas que expandem seu mundo. A moradora de Rockford, Max Chapman também vai aos testes, mas é dispensada. Com o apoio de sua melhor amiga Clance, ela deve forjar um novo caminho para buscar seu sonho.</p>
+                <button class="botao-trailer">Assista ao trailer</button>
+            </div>
+            <img src="src/imagens/personagens.jpg" alt="imagem dos personagens" class="personagens">
+    
+            <div class="modal">
+                <div class="conteudo-modal">
+                    <span class="fechar-modal">X</span>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/HbudkhKaR4U" title="Trailer oficial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="detalhes" id="detalhes">
+            <div class="informacoes informacoes-detalhes">
+                <p class="descricao descricao-detalhes">A League of Their Own evoca o espírito alegre do amado clássico de Penny Marshall, enquanto amplia as lentes para contar a história de toda uma geração de mulheres que sonhavam em jogar beisebol profissional, dentro e fora da AAGPBL. O show segue Carson (Abbi Jacobson) e Max (Chanté Adams) e um novo conjunto de personagens perspicazes e hilários enquanto eles traçam seus caminhos em direção ao campo, ao longo do caminho encontrando seus times e a si mesmos. A League of Their Own é da Amazon Studios e da Sony Pictures Television em associação com a Field Trip Productions.</p>
+
+                <div class="prime-video">                    
+                    <button class="btn-prime-video"><a href="https://www.amazon.com/League-Their-Own-Season/dp/B0B13Q4GTH" target="_blank" >Assista no Prime Video</a></button>                        
+                </div>
+                
+                <div class="container-redes">
+                    <p>Acesse as redes sociais da série:</p>
+                    <div class="redes">
+                        <a href="https://twitter.com/LeagueOnPrime" target="_blank" class="icone-rede"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/leagueonprime/" target="_blank" class="icone-rede"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
