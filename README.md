@@ -11,8 +11,8 @@ __________________________________________________
 
 ### Links
 
-- [Solução]()
-- [GitHub Pages]()
+- [Solução](https://github.com/flaviafigueredo/projeto-a-league-of-their-own)
+- [GitHub Pages](https://flaviafigueredo.github.io/projeto-a-league-of-their-own)
 __________________________________________________
 
 ### Construído com
